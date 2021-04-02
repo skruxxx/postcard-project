@@ -1,0 +1,31 @@
+body {font-size: 22px; background: #171717; font-family: 'Caveat', cursive;}
+
+.postcard{background: white; width: 500px; height: 350px; margin: auto;
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+	padding: 15px;}
+
+.postcard-header {overflow: hidden;}
+
+.postcard-header img{max-width: 70px; float: right;}
+
+.postcard-body{ overflow: hidden;}
+
+input{font-size: 18px; font-family: 'Caveat', cursive;}
+
+.postcard h1{margin:0;}
+
+.left-part{float: left; width: 50%;}
+
+.right-part{float: right; width: 50%;}
+
+.right-part input {display: block;}
+
+h1{font-size: 40px}
+.postcard-footer{padding: 10px; text-align: center;}
+
+.postcard-footer input[type=submit]{border: none; border-bottom: 1px solid gray; background: gray}
+
+.postcard-body input[type=text]{border: none; border-bottom: 1px solid gray;
+
+	width: 225px; margin-bottom: 15px; padding: 5px}
+	
